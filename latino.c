@@ -198,7 +198,7 @@ int	main(int ac, char **av)
 	while (readed[i])
 	{
 		if (readed[i] == '\n')
-			write(out, "\n", 1);
+			write(out, "0000000000", 10);
 		else
 		{
 			int j = 0;
